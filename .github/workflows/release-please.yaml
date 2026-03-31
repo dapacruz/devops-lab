@@ -15,4 +15,3 @@ jobs:
           token: "${{ secrets.DEVOPS_STUDY_APP }}"
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
-
