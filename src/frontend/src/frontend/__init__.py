@@ -1,7 +1,7 @@
 """
 DevOps Study Timer Frontend
 
-A Flask web application for tracking study time for DevOps certifications.
+A Flask web application for tracking study time for DevOps certifications
 """
 
 # Import and expose main functions and app
