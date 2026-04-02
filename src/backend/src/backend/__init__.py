@@ -1,7 +1,7 @@
 """
 DevOps Study Tracker API
 
-A FastAPI application for tracking study time for DevOps certifications.
+A FastAPI application for tracking study time for DevOps certifications
 """
 
 from .models import StudySession, StudySessionCreate, Stats
