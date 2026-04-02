@@ -3,6 +3,9 @@ name: Backend Tests
 on:
   pull_request:
 
+permissions:
+  pull-requests: write
+
 jobs:
   check_paths:
     runs-on: ubuntu-latest
@@ -80,7 +83,7 @@ jobs:
         run: docker build -t backend-app:latest .
 
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@0.30.0
+        uses: aquasecurity/trivy-action@v0.35.0
         with:
           image-ref: "backend-app:latest"
           format: "table"
