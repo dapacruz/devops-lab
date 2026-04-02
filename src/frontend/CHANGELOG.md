@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1](https://github.com/dapacruz/devops-lab/compare/frontend-v0.1.0...frontend-v0.1.1) (2026-04-02)
+
+
+### Documentation
+
+* **frontend:** Update init description ([dc3343b](https://github.com/dapacruz/devops-lab/commit/dc3343bd8e366735e079c8f2697f3143387b60c2))
+* **frontend:** Update init description ([382cf48](https://github.com/dapacruz/devops-lab/commit/382cf489ff07eb2bd137fb48f847ec36de2aab5c))
+
 ## 0.1.0 (2025-05-05)
 
 
