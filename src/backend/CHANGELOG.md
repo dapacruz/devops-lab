@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/Dapacruz/devops-lab/compare/backend-v0.2.1...backend-v0.2.2) (2026-04-02)
+
+
+### Documentation
+
+* **backend:** Update init description ([33d87c1](https://github.com/Dapacruz/devops-lab/commit/33d87c1da0263967a342dacc278f028ecc969a31))
+
 ## [0.2.1](https://github.com/mischavandenburg/devops-study-app/compare/backend-v0.2.0...backend-v0.2.1) (2025-05-05)
 
 
