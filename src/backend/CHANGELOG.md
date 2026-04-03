@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/dapacruz/devops-lab/compare/backend-v0.2.2...backend-v0.2.3) (2026-04-03)
+
+
+### Documentation
+
+* **backend:** Update CI pipeline marker ([#10](https://github.com/dapacruz/devops-lab/issues/10)) ([6e6b2c7](https://github.com/dapacruz/devops-lab/commit/6e6b2c7adc095a046a373908f4f6b660cf5582a3))
+
 ## [0.2.2](https://github.com/Dapacruz/devops-lab/compare/backend-v0.2.1...backend-v0.2.2) (2026-04-02)
 
 
