@@ -11,7 +11,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Create Flask app
+# Create Flask application
 app = Flask(__name__)
 
 # Configuration
