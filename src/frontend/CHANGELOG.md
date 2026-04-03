@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/dapacruz/devops-lab/compare/frontend-v0.1.2...frontend-v0.1.3) (2026-04-03)
+
+
+### Documentation
+
+* **frontend:** Update Flask documentation ([#13](https://github.com/dapacruz/devops-lab/issues/13)) ([65eec65](https://github.com/dapacruz/devops-lab/commit/65eec659aaa82ad4da4ac513f0c6274712f35707))
+
 ## [0.1.2](https://github.com/dapacruz/devops-lab/compare/frontend-v0.1.1...frontend-v0.1.2) (2026-04-03)
 
 
