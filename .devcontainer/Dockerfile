@@ -14,3 +14,6 @@ RUN curl https://mise.run | sh
 # make sure mise is activated in both zsh and bash. Might be overridden by a user's dotfiles.
 RUN echo 'eval "$(mise activate zsh)"' >> /home/vscode/.zshrc.local
 
+# install command completion dependency
+RUN mise use -g usage && mise install
+
