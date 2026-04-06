@@ -7,6 +7,7 @@ ENV MISE_CACHE_DIR="/mise/cache"
 ENV MISE_INSTALL_PATH="/usr/local/bin/mise"
 ENV PATH="/mise/shims:$PATH"
 # ENV MISE_VERSION="..."
+
 RUN mkdir -p /mise && chown -R vscode:vscode /mise
 
 RUN curl https://mise.run | sh
@@ -16,7 +17,4 @@ RUN echo 'eval "$(mise activate zsh)"' >> /home/vscode/.zshrc.local
 
 # enable mise completion
 RUN echo 'source <(mise completion zsh)' >> /home/vscode/.zshrc.local
-
-# install command completion dependency
-RUN mise use -g usage
 
