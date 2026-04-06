@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/dapacruz/devops-lab/compare/backend-v0.2.3...backend-v0.2.4) (2026-04-06)
+
+
+### Bug Fixes
+
+* **backend:** Trigger CI ([#24](https://github.com/dapacruz/devops-lab/issues/24)) ([e69ca11](https://github.com/dapacruz/devops-lab/commit/e69ca117c5bde7c42d08d3ef26355e093e4a690e))
+
 ## [0.2.3](https://github.com/dapacruz/devops-lab/compare/backend-v0.2.2...backend-v0.2.3) (2026-04-03)
 
 
