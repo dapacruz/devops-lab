@@ -3,4 +3,3 @@
 /usr/local/bin/mise trust /workspaces/"$DEVPOD_WORKSPACE_ID"/mise.toml
 /usr/local/bin/mise use -g usage
 /usr/local/bin/mise install
-echo 'source <(flux completion zsh)' >> /home/vscode/.zshrc.local
