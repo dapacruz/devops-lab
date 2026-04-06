@@ -12,9 +12,14 @@ RUN mkdir -p /mise && chown -R vscode:vscode /mise
 
 RUN curl https://mise.run | sh
 
+RUN touch /home/vscode/.zshrc.local && chown vscode:vscode /home/vscode/.zshrc.local
+
 # make sure mise is activated in zsh. Might be overridden by a user's dotfiles.
 RUN echo 'eval "$(mise activate zsh)"' >> /home/vscode/.zshrc.local
 
 # enable mise completion
 RUN echo 'source <(mise completion zsh)' >> /home/vscode/.zshrc.local
+
+# enable flux completion
+RUN echo 'source <(flux completion zsh)' >> /home/vscode/.zshrc.local
 
