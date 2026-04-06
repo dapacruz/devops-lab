@@ -23,3 +23,6 @@ RUN echo 'source <(mise completion zsh)' >> /home/vscode/.zshrc.local
 # enable flux completion
 RUN echo 'source <(flux completion zsh)' >> /home/vscode/.zshrc.local
 
+# enable k3d completion
+RUN echo 'source <(k3d completion zsh)' >> /home/vscode/.zshrc.local
+
