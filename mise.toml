@@ -18,6 +18,7 @@ experimental = true
 [env]
 APP_REPO = 'devops-lab'
 GITOPS_REPO = 'devops-lab-gitops'
+GITUSER = 'dapacruz'
 
 [hooks]
 enter = "bash ./scripts/setup_project"
