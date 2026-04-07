@@ -28,7 +28,7 @@ fi
 
 # Script directory
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-BASE_DIR="/workspaces/$DEVPOD"
+BASE_DIR="/workspaces/$DEVPOD_WORKSPACE_ID"
 CLUSTER_NAME="study-app-cluster"
 KEY_DIR="/workspaces/$DEVPOD_WORKSPACE_ID/dev-keys"
 
